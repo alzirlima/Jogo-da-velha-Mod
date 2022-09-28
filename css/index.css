@@ -1,5 +1,14 @@
+body {
+    background-color: lightblue;
+  }
+
 h2 {
     text-align: center;
+}
+
+h5 {
+    text-align: center;
+
 
 }
 
@@ -11,33 +20,67 @@ h2 {
     width: 190px;
     grid-template-rows: 60px 60px 60px;
     grid-template-columns: 60px 60px 60px;
+    
 }
 
 #container > div {
     background-color: blanchedalmond;
     font-size: 3.5em;
     text-align: center;
+    
 }
 
 #containerMsgs {
     display: flex;
     justify-content: center;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #messages {
     box-sizing: border-box;
     border: 1px solid brown;
     width: 190px;
-    height: 90px;
+    height: 190px;
     text-align: center;
-    padding-top: 35px;
-    
+   
 }
 
 #button {
     display: flex;
     justify-content: center;
     visibility: hidden;
-   
+ 
+   }
+
+
+#alzir {
+
+max-width: 60px;
+max-height: 60px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+border-radius: 20%;
+}
+
+#lula {
+    max-width: 60px;
+    max-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20%;
+}
+
+#bozo {
+    max-width: 60px;
+    max-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20%;
 
 }
